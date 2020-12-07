@@ -1,0 +1,189 @@
+/**
+ * Palettes
+ * ----------------------------------------------------------------------------
+ */
+.palette-purple {
+  a {
+    &:not(.button) {
+      &:hover,
+      &:focus {
+        border-color: _palette(accent-purple);
+        color: _palette(accent-purple);
+      }
+    }
+  }
+
+  blockquote {
+    border-color: _palette(accent-purple);
+  }
+
+  button,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  .button {
+    background: _palette(accent-purple);
+    border-color: _palette(accent-purple);
+  }
+
+  .button.secondary {
+    background: transparent;
+    color: _palette(accent-purple);
+  }
+
+  .underline {
+    &:after {
+      border-color: _palette(accent-purple);
+    }
+  }
+
+  .icon-plus {
+    background: _palette(accent-purple);
+  }
+
+  .review-text {
+    &:before {
+      color: _palette(accent-purple);
+    }
+  }
+
+  .plan {
+    &.highlight {
+      .plan-inside {
+        border-color: _palette(accent-purple);
+      }
+    }
+  }
+
+  .block {
+    &.bg-accent {
+      background: _palette(accent-purple);
+      background: -webkit-linear-gradient(left,_palette(accent-purple), _palette(accent-purple-alt));
+      background: linear-gradient(to right,_palette(accent-purple), _palette(accent-purple-alt));
+    }
+  }
+}
+
+.palette-green {
+  a {
+    &:not(.button) {
+      &:hover,
+      &:focus {
+        border-color: _palette(accent-green);
+        color: _palette(accent-green);
+      }
+    }
+  }
+
+  blockquote {
+    border-color: _palette(accent-green);
+  }
+
+  button,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  .button {
+    background: _palette(accent-green);
+    border-color: _palette(accent-green);
+  }
+
+  .button.secondary {
+    background: transparent;
+    color: _palette(accent-green);
+  }
+
+  .underline {
+    &:after {
+      border-color: _palette(accent-green);
+    }
+  }
+
+  .icon-plus {
+    background: _palette(accent-green);
+  }
+
+  .review-text {
+    &:before {
+      color: _palette(accent-green);
+    }
+  }
+
+  .plan {
+    &.highlight {
+      .plan-inside {
+        border-color: _palette(accent-green);
+      }
+    }
+  }
+
+  .block {
+    &.bg-accent {
+      background: _palette(accent-green);
+      background: -webkit-linear-gradient(left,_palette(accent-green), _palette(accent-green-alt));
+      background: linear-gradient(to right,_palette(accent-green), _palette(accent-green-alt));
+    }
+  }
+}
+
+.palette-orange {
+  a {
+    &:not(.button) {
+      &:hover,
+      &:focus {
+        border-color: _palette(accent-orange);
+        color: _palette(accent-orange);
+      }
+    }
+  }
+
+  blockquote {
+    border-color: _palette(accent-orange);
+  }
+
+  button,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  .button {
+    background: _palette(accent-orange);
+    border-color: _palette(accent-orange);
+  }
+
+  .button.secondary {
+    background: transparent;
+    color: _palette(accent-orange);
+  }
+
+  .underline {
+    &:after {
+      border-color: _palette(accent-orange);
+    }
+  }
+
+  .icon-plus {
+    background: _palette(accent-orange);
+  }
+
+  .review-text {
+    &:before {
+      color: _palette(accent-orange);
+    }
+  }
+
+  .plan {
+    &.highlight {
+      .plan-inside {
+        border-color: _palette(accent-orange);
+      }
+    }
+  }
+
+  .block {
+    &.bg-accent {
+      background: _palette(accent-orange);
+      background: -webkit-linear-gradient(left,_palette(accent-orange), _palette(accent-orange-alt));
+      background: linear-gradient(to right,_palette(accent-orange), _palette(accent-orange-alt));
+    }
+  }
+}
